@@ -1,0 +1,33 @@
+{
+  "name": "pricealerter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/38224/priceAlerter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/38224/priceAlerter/issues"
+  },
+  "homepage": "https://github.com/38224/priceAlerter#readme",
+  "dependencies": {
+    "await": "^0.2.6",
+    "axios": "^0.21.1",
+    "cheerio": "*",
+    "fetch": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "requests": "^0.3.0",
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2",
+    "sqlite3-transactions": "^0.0.5",
+    "whatwg-fetch": "^3.6.2"
+  }
+}
