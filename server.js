@@ -7,7 +7,7 @@ const fetch = require("node-fetch")
 
 async function main() {
 
-  let prod = "gtx"
+  let prod = "RTX"
 
   let res = [],itemList = [],itemName = [],priceList = [], amount = 5, days= 30
 
@@ -65,7 +65,7 @@ async function main() {
             console.log("4-"+ itemName[i] + ", value was: " + toEvaluateDay + " and now is:" + listvalues[prodDays-1].value+ " ( < 25% desc)")
           break; 
         default:
-          console.log("!!!!!!!!!ALERT!!!!!!!!!!!!   - "+itemName[i] + ", value was: " + toEvaluateDay + " and now is:" + listvalues[prodDays-1].value)
+          console.log("5- !!!!!!!!!ALERT!!!!!!!!!!!!   - "+itemName[i] + ", value was: " + toEvaluateDay + " and now is:" + listvalues[prodDays-1].value)
           break;
       } 
     }
